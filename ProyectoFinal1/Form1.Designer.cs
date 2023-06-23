@@ -38,6 +38,10 @@
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.cmbIDVenta = new System.Windows.Forms.ComboBox();
+            this.cmbIDUsuario = new System.Windows.Forms.ComboBox();
+            this.cmbIDProdVendido = new System.Windows.Forms.ComboBox();
+            this.cmbIDProducto = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +56,7 @@
             // 
             // btnProductos
             // 
-            this.btnProductos.Location = new System.Drawing.Point(35, 9);
+            this.btnProductos.Location = new System.Drawing.Point(92, 9);
             this.btnProductos.Name = "btnProductos";
             this.btnProductos.Size = new System.Drawing.Size(124, 23);
             this.btnProductos.TabIndex = 1;
@@ -62,9 +66,9 @@
             // 
             // btnProductosVendidos
             // 
-            this.btnProductosVendidos.Location = new System.Drawing.Point(165, 9);
+            this.btnProductosVendidos.Location = new System.Drawing.Point(283, 8);
             this.btnProductosVendidos.Name = "btnProductosVendidos";
-            this.btnProductosVendidos.Size = new System.Drawing.Size(155, 23);
+            this.btnProductosVendidos.Size = new System.Drawing.Size(141, 23);
             this.btnProductosVendidos.TabIndex = 2;
             this.btnProductosVendidos.Text = "Productos Vendidos";
             this.btnProductosVendidos.UseVisualStyleBackColor = true;
@@ -72,9 +76,9 @@
             // 
             // btnUsuarios
             // 
-            this.btnUsuarios.Location = new System.Drawing.Point(326, 9);
+            this.btnUsuarios.Location = new System.Drawing.Point(490, 8);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(119, 23);
+            this.btnUsuarios.Size = new System.Drawing.Size(107, 23);
             this.btnUsuarios.TabIndex = 3;
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.UseVisualStyleBackColor = true;
@@ -82,9 +86,9 @@
             // 
             // btnVentas
             // 
-            this.btnVentas.Location = new System.Drawing.Point(451, 9);
+            this.btnVentas.Location = new System.Drawing.Point(659, 9);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(116, 23);
+            this.btnVentas.Size = new System.Drawing.Size(103, 23);
             this.btnVentas.TabIndex = 4;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.UseVisualStyleBackColor = true;
@@ -132,11 +136,51 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "Clave";
             // 
+            // cmbIDVenta
+            // 
+            this.cmbIDVenta.FormattingEnabled = true;
+            this.cmbIDVenta.Location = new System.Drawing.Point(605, 9);
+            this.cmbIDVenta.Name = "cmbIDVenta";
+            this.cmbIDVenta.Size = new System.Drawing.Size(53, 23);
+            this.cmbIDVenta.TabIndex = 10;
+            this.cmbIDVenta.SelectedIndexChanged += new System.EventHandler(this.cmbIDVenta_SelectedIndexChanged);
+            // 
+            // cmbIDUsuario
+            // 
+            this.cmbIDUsuario.FormattingEnabled = true;
+            this.cmbIDUsuario.Location = new System.Drawing.Point(437, 8);
+            this.cmbIDUsuario.Name = "cmbIDUsuario";
+            this.cmbIDUsuario.Size = new System.Drawing.Size(53, 23);
+            this.cmbIDUsuario.TabIndex = 11;
+            this.cmbIDUsuario.SelectedIndexChanged += new System.EventHandler(this.cmbIDUsuario_SelectedIndexChanged);
+            // 
+            // cmbIDProdVendido
+            // 
+            this.cmbIDProdVendido.FormattingEnabled = true;
+            this.cmbIDProdVendido.Location = new System.Drawing.Point(229, 8);
+            this.cmbIDProdVendido.Name = "cmbIDProdVendido";
+            this.cmbIDProdVendido.Size = new System.Drawing.Size(53, 23);
+            this.cmbIDProdVendido.TabIndex = 12;
+            this.cmbIDProdVendido.SelectedIndexChanged += new System.EventHandler(this.cmbIDProdVendido_SelectedIndexChanged);
+            // 
+            // cmbIDProducto
+            // 
+            this.cmbIDProducto.FormattingEnabled = true;
+            this.cmbIDProducto.Location = new System.Drawing.Point(35, 9);
+            this.cmbIDProducto.Name = "cmbIDProducto";
+            this.cmbIDProducto.Size = new System.Drawing.Size(53, 23);
+            this.cmbIDProducto.TabIndex = 13;
+            this.cmbIDProducto.SelectedIndexChanged += new System.EventHandler(this.cmbIDProducto_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmbIDProducto);
+            this.Controls.Add(this.cmbIDProdVendido);
+            this.Controls.Add(this.cmbIDUsuario);
+            this.Controls.Add(this.cmbIDVenta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtContrasena);
@@ -148,7 +192,8 @@
             this.Controls.Add(this.btnProductos);
             this.Controls.Add(this.dataGridView);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sistema Gestion CH - Curso C#";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -167,5 +212,9 @@
         private TextBox txtContrasena;
         private Label label1;
         private Label label2;
+        private ComboBox cmbIDVenta;
+        private ComboBox cmbIDUsuario;
+        private ComboBox cmbIDProdVendido;
+        private ComboBox cmbIDProducto;
     }
 }
