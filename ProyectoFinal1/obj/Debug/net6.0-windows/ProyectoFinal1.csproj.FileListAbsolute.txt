@@ -70,6 +70,13 @@ C:\Users\RY12555\source\Proyectos\PF1\ProyectoFinal1\ProyectoFinal1\obj\Debug\ne
 C:\Users\RY12555\source\Proyectos\PF1\ProyectoFinal1\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.pdb
 C:\Users\RY12555\source\Proyectos\PF1\ProyectoFinal1\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.genruntimeconfig.cache
 C:\Users\RY12555\source\Proyectos\PF1\ProyectoFinal1\ProyectoFinal1\obj\Debug\net6.0-windows\ref\ProyectoFinal1.dll
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.AssemblyReference.cache
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.Form1.resources
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.GenerateResource.cache
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.AssemblyInfoInputs.cache
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.AssemblyInfo.cs
+C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.CoreCompileInputs.cache
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-windows\ProyectoFinal1.exe
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-windows\ProyectoFinal1.deps.json
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-windows\ProyectoFinal1.runtimeconfig.json
@@ -81,13 +88,6 @@ C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-wi
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.AssemblyReference.cache
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.Form1.resources
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.GenerateResource.cache
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.AssemblyInfoInputs.cache
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.AssemblyInfo.cs
-C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.CoreCompileInputs.cache
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.csproj.CopyComplete
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\ProyectoFinal1.dll
 C:\Users\RY12555\source\repos\ProyectoFinalCH\ProyectoFinal1\obj\Debug\net6.0-windows\refint\ProyectoFinal1.dll
